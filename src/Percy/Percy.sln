@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31004.235
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Percy.Webdriver", "Percy.Webdriver\Percy.Webdriver.csproj", "{FC37D625-2994-4F44-AA66-055DD114A704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Percy.Webdriver", "Percy.Webdriver\Percy.Webdriver.csproj", "{FC37D625-2994-4F44-AA66-055DD114A704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Percy.Webdriver.Test", "Percy.Webdriver.Test\Percy.Webdriver.Test.csproj", "{65C08C7B-9A5B-4ECB-86AA-F0C8F40665BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FC37D625-2994-4F44-AA66-055DD114A704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC37D625-2994-4F44-AA66-055DD114A704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC37D625-2994-4F44-AA66-055DD114A704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C08C7B-9A5B-4ECB-86AA-F0C8F40665BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C08C7B-9A5B-4ECB-86AA-F0C8F40665BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C08C7B-9A5B-4ECB-86AA-F0C8F40665BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C08C7B-9A5B-4ECB-86AA-F0C8F40665BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

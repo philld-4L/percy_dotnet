@@ -17,7 +17,7 @@ namespace Percy.Webdriver
             var jsExe = (IJavaScriptExecutor)driver;
             //fetch the DOM
             jsExe.ExecuteScript(config.PercyDOM());
-            string snapshot = "return PercyDOM.serialize({ enableJavascript: "+ enableJavascript.ToString() + "})\n";
+            string snapshot = "return PercyDOM.serialize({ enableJavascript: "+ enableJavascript.ToString().ToLower() + "})\n";
             //now create the snapshot
             return jsExe.ExecuteScript(snapshot).ToString();
 
