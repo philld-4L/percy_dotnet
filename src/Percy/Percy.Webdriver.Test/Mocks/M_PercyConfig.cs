@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Percy.Webdriver.Test.Mocks
 {
-    class M_PercyConfig : IPercyConfig
+    internal class M_PercyConfig : IPercyConfig
     {
         
         public string PercyServer { get; set; }

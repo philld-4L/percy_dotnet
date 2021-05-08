@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Percy.Webdriver.Test.Mocks
 {
-    class M_WebDriver : IWebDriver, IJavaScriptExecutor
+    internal class M_WebDriver : IWebDriver, IJavaScriptExecutor
     {
         public string Url { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
