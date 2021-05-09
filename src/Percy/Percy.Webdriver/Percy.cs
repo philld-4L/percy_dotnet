@@ -21,11 +21,6 @@ namespace Percy.Webdriver
             snapshot.PostToServer(Config.PercyServer);
         }
 
-        protected void PostToServer(string snapshot, SnapshotProperties properties)
-        { 
-            
-        }
-
         public static Percy LaunchFromJSONFile(string configPath)
         {
             var instance = new Percy();
