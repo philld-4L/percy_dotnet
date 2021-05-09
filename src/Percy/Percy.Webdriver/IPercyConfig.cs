@@ -10,5 +10,9 @@ namespace Percy.Webdriver
         string PercyServer { get; set; }
         string PercyDOM();
         string ClientInfo { get; }
+
+        bool HealthCheck { get; }
+        TimeSpan HealthCheckInterval { get; set; }
+        DateTime? LastHealthCheck { get; set; }
     }
 }

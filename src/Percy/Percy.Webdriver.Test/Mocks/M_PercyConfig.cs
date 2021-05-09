@@ -19,5 +19,8 @@ namespace Percy.Webdriver.Test.Mocks
         }
 
         public string M_PercyDOM { get; set; }
+        public bool HealthCheck { get; set; }
+        public TimeSpan HealthCheckInterval { get; set; }
+        public DateTime? LastHealthCheck { get; set; }
     }
 }
