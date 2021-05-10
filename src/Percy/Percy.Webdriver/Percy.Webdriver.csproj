@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>4L-Software</Company>
+    <Authors>philld-4L</Authors>
+    <Description>Open source .net implementation of Percy SDK</Description>
+    <PackageProjectUrl>https://github.com/philld-4L/percy_dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/philld-4L/percy_dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>0.0.1</Version>
+    <PackageTags>percy;webdriver;snapshot;visual testing</PackageTags>
+    <PackageReleaseNotes>0xx versions are for initial development as the source code, unit tests sample application and CI/CD process are built.
+Descriptive release notes will not be provided for 0xx versions.
+Hardened versions will start at 1xx</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

@@ -24,6 +24,10 @@ namespace Percy.Webdriver
         public string ClientInfo { get; set; }
         public string EnvironmentInfo { get; set; }
 
+        /// <summary>
+        /// Posts the snapshot to the Percy server
+        /// </summary>
+        /// <param name="serverAddress">Address of the Percy server</param>
         public void PostToServer(string serverAddress)
         {
             var client = new HttpClient();
